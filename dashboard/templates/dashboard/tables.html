@@ -503,13 +503,20 @@
 
 {% endblock %}
 
+
+{% block customcss %}
+
+    <link rel="stylesheet" type="text/css" href="{%  static 'dashboard/vendor/datatables/datatables.min.css' %}"/>
+
+{% endblock %}
+
+
 {% block customjs %}
 
     <!-- Page level plugins -->
-    <script src="{% static 'dashboard/vendor/datatables/jquery.dataTables.min.js' %}"></script>
-    <script src="{% static 'dashboard/vendor/datatables/dataTables.bootstrap4.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'dashboard/vendor/datatables/datatables.min.js' %}"></script>
 
     <!-- Page level custom scripts -->
-    <script src="{% static 'dashboard/js/demo/datatables-demo.js' %}"></script>
+    <script type="text/javascript" src="{% static 'dashboard/js/demo/datatables-demo.js' %}"></script>
 
 {% endblock %}
