@@ -4,10 +4,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-django = "*"
 django-debug-toolbar = "*"
 
 [packages]
+django = "*"
 
 [requires]
 python_version = "3.6"

@@ -1,4 +1,4 @@
-{% extends 'dashboard/base.html' %}
+{% extends 'base.html' %}
 
 {% load static %}
 
@@ -506,7 +506,7 @@
 
 {% block customcss %}
 
-    <link rel="stylesheet" type="text/css" href="{%  static 'dashboard/vendor/datatables/datatables.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{%  static 'vendor/datatables/datatables.min.css' %}"/>
 
 {% endblock %}
 
@@ -514,7 +514,7 @@
 {% block customjs %}
 
     <!-- Page level plugins -->
-    <script type="text/javascript" src="{% static 'dashboard/vendor/datatables/datatables.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'vendor/datatables/datatables.min.js' %}"></script>
 
     <!-- Page level custom scripts -->
     <script type="text/javascript" src="{% static 'dashboard/js/demo/datatables-demo.js' %}"></script>

@@ -2,3 +2,4 @@ sd_admin_backup
 db.*
 *__pycache__*
 .idea/
+Pipfile.lock
